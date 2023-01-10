@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(/projeto/fontes/idroid.otf) format('opentype');
+    src: url(/fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -97,6 +97,9 @@ nav a:hover {
     background-color: var(--cor3);
     transition-duration: .8s;
 }
+body{
+    background-image: linear-gradient(to top, #3b4066 0%, #50536d 100%);
+}
 
 main {
     padding: 20px;
@@ -112,7 +115,7 @@ main {
 
 div {
     background-color: #405080;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -198,10 +201,13 @@ aside h3{
     border-radius: 10px 10px 0px 0px;
 }
 
+aside p {
+    font-size: 1.1em;
+}
 
 ul{
     list-style-position: inside;
-    columns: 3;
+    columns: 2;
     list-style: none; 
     margin-left: 5px;
 }
