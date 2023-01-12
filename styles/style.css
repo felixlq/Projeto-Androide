@@ -80,7 +80,7 @@ nav > ul {
 }
 
 nav a {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     color: rgb(124, 180, 211);
     text-decoration: none;
     border-radius: 5px;
@@ -98,7 +98,7 @@ nav a:hover {
     transition-duration: .8s;
 }
 body{
-    background-image: linear-gradient(to top, #3b4066 0%, #50536d 100%);
+    background-image: linear-gradient(to top, #404672 0%, #50536d 100%);
 }
 
 main {
